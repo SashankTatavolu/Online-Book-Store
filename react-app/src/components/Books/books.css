@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+#Books{
+    height: auto;
+}
+.topBackgroundBook{
+    margin-top: 8%;
+    height:100%;
+    background-color: rgb(243, 239, 213);
+    display:flex;
+    border:20px solid rgb(243, 239, 213);
+    border-bottom: 80px solid rgb(243, 239, 213);
+
+
+}
+.topBackgroundBookWrittenContent{
+    width:60%;
+}
+.topBackgroundBookImage{
+    width:auto;
+}
+.topBackgroundBookImage img{
+    width:auto;
+    height: 100%;
+}
+.topBackgroundBookWrittenContentStyles{
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+.topBackgroundBookWrittenContentStyles p span{
+    color: goldenrod;
+}
+.titleBook{
+    color: goldenrod;
+    font-family: 'Cinzel', serif;
+    margin-top: 4%;
+    margin-left: 46%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    font-weight: 600;
+
+
+}
+.bodyBook{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.leftColoumBook{
+    width:17%;
+    float: left;
+    border-right: 2px solid goldenrod;
+    padding-left: 0;
+}
+.rightPartBook{
+    width:70%;
+    float: left;
+    margin-left: 5%;
+}
+.categoriesBookTitle{
+    font-family: 'Cabin', sans-serif;
+
+    font-size: 20px;
+    color:gold;
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid goldenrod;
+    padding:16px 20px;
+
+
+}
+.categoriesContentBook p{
+    font-size: 15px;
+    color:gold;
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid goldenrod;
+    padding:10px 12px;
+    cursor: pointer;
+
+}
+.categoriesContentBook p:hover{
+    color:goldenrod;
+}
+.BuyBook{
+    position:absolute;
+    overflow:auto ;
+    background-color: rgb(231, 213, 167);
+}
+
+#buyBookModal{
+    position:absolute;
+    overflow:auto ;
+    height:auto;
+    width:auto;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    outline:none;
+    background-color: whitesmoke;
+    
+}
+.buyBookModalTop{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    color:gray;
+    font-size: 35px;
+}
+
+#BuyTable {
+    margin:5% 10%;
+    background-color: whitesmoke;
+
+
+}
+
+
+#BuyTable thead tr th{
+    border:4px solid whitesmoke;
+    border-bottom: 5px solid  whitesmoke;
+    border-collapse: collapse;
+    padding:20px 42px;
+    color:whitesmoke;
+    font-size: 20px;
+    background-color: gray;
+    
+    
+   
+}
+#BuyTable tbody tr{
+    
+}
+
+
+#BuyTable tbody tr td{
+    border-top:2px solid gray;
+    border-bottom: 2px solid gray;
+    border-left:none;
+    border-right:none;
+    border-collapse: separate;
+    padding:20px 40px;
+    font-size: 15px;
+
+}
+#cancelBuyBookButton{
+    background-color: rgb(196, 196, 196);
+    padding:16px 20px;
+    outline: none;
+    border:none;
+}
+#cancelBuyBookButton:hover{
+    background-color: gray;
+}
+
+.buyBookModalBottom{
+    margin-top: 5%;
+}
+#totalPriceOfBook tr td{
+    border-top:none;
+    border-bottom:2px solid gray ;
+    border-left:none;
+    border-right:none;
+    border-collapse: separate;
+    padding:25px 50px;
+    font-size: 25px;
+    margin-left: 2%;
+    font-family: 'Benne', serif;
+    color:rgb(31, 30, 30);
+
+}
+#checkOut{
+    font-size: 20px;
+    padding:16px 18px;
+    background-color: white;
+    border:1px solid gray;
+}
+#checkOut:hover{
+    background-color: teal;
+}
+#rightPartBookTop{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color:rgb(219, 169, 43);
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid gold;
+    padding:10px 12px;
+    cursor: pointer;
+}
+
+

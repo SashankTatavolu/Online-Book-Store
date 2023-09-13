@@ -1,0 +1,3 @@
+django admin 
+username: sashank
+pswd: sashi662

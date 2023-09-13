@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+.personalData{
+    display:flex;
+      justify-content:space-between;
+      margin-top: 7%;
+
+}
+
+.personalInfo ul li{
+    list-style-type: none;
+    display:flex;
+}
+
+.personalInfo{
+    width: 30%;
+    margin-left:5%;
+    
+    
+
+}
+.importExportInfo{
+    border-left:5px solid plum ;
+
+    width:70%;
+}
+
+.personalPhoto img{
+    border-radius: 50%;
+    height:50%;
+    width:50%;
+    border:2px solid rgb(221, 185, 221);
+
+
+}
+
+.personalInfo p{
+    margin:7% 0;
+    letter-spacing: 0.5px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-size:30px;
+    color:purple;
+
+}
+.personalInfo button,.personalInfo input[type=submit]{
+    margin:auto;
+    width:90%;
+    height: auto;
+    border-radius:5%;
+    background-color: rgb(223, 201, 223);
+    border-color: 2px solid plum;
+    outline: none;
+    color:rgb(126, 118, 118);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.otherInfo p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color:rgb(223, 142, 223);
+    font-weight: 700;
+}
+
+#books,#TextBook,#Notes{
+    margin-left: 5%;
+    margin:2%;
+    width:30%;
+    height:fit-content;
+    padding: 1%;
+    border-radius: 25%;
+    outline:none;
+    border:none;
+}
+
+ #Notes{
+    background-color:rgb(156, 194, 191);
+    border:2px solid rgb(111, 196, 191);
+}
+ #Notes:hover{
+    background-color: lightseagreen;
+}
+
+#TextBook{
+    background-color: rgb(198, 215, 238);
+    border:2px solid lightsteelblue;
+}
+#TextBook:hover{
+    background-color: rgb(109, 162, 180);
+}
+
+#books{
+    background-color: rgb(187, 149, 161);
+    border:2px solid rgb(212, 133, 159);
+}
+#books:hover{
+    background-color: palevioletred;
+}
+#activities{
+    margin-top: 5%;
+    border-top: 5px solid plum;
+
+}
+#activities p{
+    margin:3% 35%;
+
+    color:rgb(60, 153, 60);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+
+
+}
+#activities ul li{
+    list-style-type: none;
+    display:inline;
+    justify-content: space-between;
+
+}
+#activityOfBook{
+    margin:7%;
+
+}
+
+
+
+#boughtBooks,#soldBooks,#addedOnList{
+    margin:3% 5%;
+    text-align: center;
+    padding: 24px 28px;
+    border-radius: 10%;
+    border:none;
+    outline: none;
+    letter-spacing: 0.3px;
+    font-size:18px ;
+}
+
+#boughtBooks{
+    background-color:rgb(245, 174, 174);
+    border: 1px solid rgb(233, 99, 99);
+}
+#soldBooks{
+    background-color: rgb(205, 205, 241);
+    border:1px solid rgb(103, 103, 209);
+}
+#addedOnList{
+    background-color: rgb(252, 221, 194);
+    border:1px solid rgb(192, 192, 16);
+}
+#boughtBooks:hover{
+    background-color: rgb(226, 93, 93);
+}
+#soldBooks:hover{background-color: lightblue;}
+#addedOnList:hover{background-color: rgb(226, 226, 111);}
+
+#editAndUpdate{
+    margin-top:8%;
+    margin-right: 7%;
+    margin-left: -7%;
+    border:1px solid plum;
+    background-color: rgb(247, 238, 247);
+    list-style-type:none;
+    
+}
+#editAndUpdate button{
+    background-color:#e6e5e5;
+    color:rgb(223, 133, 223);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin:20px 0;
+    margin-left: 15%;
+
+    width:70%;
+}
+#editAndUpdate input[type=button]{
+    background-color:#e6e5e5;
+    color:rgb(223, 133, 223);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin:20px 0;
+    margin-left: 15%;
+
+    width:70%;
+}
+
+
+#editAndUpdate li{
+    margin:10px 10px;
+}
+#editAndUpdate span{
+    width:50%;
+}
+#editAndUpdate input{
+    margin:0 35px;
+    width:50%;
+    border:1px solid plum;
+    outline:purple;
+    
+
+}
+
+
+#editAndUpdate input[type=email]{
+    margin:0 70px;
+}
+#editAndUpdate input[type=phonenumber]{
+    margin:0 10px;
+}
+#editAndUpdate #buttonsForSave span button{
+    width:25%;
+    display:inline-flex;
+    border-radius: 10px;
+    outline: none;
+    padding:6px;
+}
+#editAndUpdate #buttonsForSave span #saveButton{
+    background-color:rgb(104, 150, 104);
+    margin-left: 45%;
+    outline: none;
+    box-shadow: none;
+    border:none;
+    color:rgb(247, 238, 247);
+    text-align: center;
+    
+
+}
+#editAndUpdate #buttonsForSave span #cancelButton{
+    background-color: rgb(247, 149, 149);
+    color:rgb(247, 238, 247);
+    outline: none;
+    box-shadow: none;
+    border:none;
+    margin-left: 1%;
+}
+.bookModal{
+    height:auto;
+    width:60%;
+    margin-top: 1%;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url(../../assests/123.jpeg);
+    outline: none;
+    filter: grayscale(50%);
+    border:3px solid palevioletred;
+
+}
+.bookTitle{
+    color:rgb(238, 16, 90);
+    margin:30px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    filter: contrast(200%)
+}
+.bookDetailSpace,.textBookDetailSpace,.notesDetailSpace{
+    display: flex;
+    justify-content: space-between;
+    margin:10% 0;
+    
+}
+.bookDetailLeft,.bookDetailRight,.textBookDetailLeft,.textBookDetailRight,.notesDetailLeft,.notesDetailSpaceRight{
+    width:40%;
+    height:auto;
+    margin-left: 20px;
+}
+.bookDetailRight p,.bookDetailLeft p{
+    font-size: 20px;
+    color:rgb(204, 41, 41);
+    font-weight: 600;
+}
+.bookDetailLeft select,.bookDetailLeft input[type=text],.bookDetailRight input[type=text],.bookDetailRight input[type=date] 
+,.bookDetailRight textarea[type=text],.bookDetailRight input[type=submit]{
+    width:100%;
+    height:auto;
+    color:grey;
+    font-size: 15px;
+
+}
+.textBookModal{
+    height:auto;
+    width:60%;
+    margin-top: 1%;
+    margin-left:auto;
+    margin-right: auto;
+    background-image:url(../../assests/pexels-photo-3747507.jpeg);
+    background-size: 100%;
+    filter: grayscale(50%);
+    outline: none;
+    border:3px solid rgb(3, 145, 192);
+
+}
+.textBookTitle{
+    color:rgb(3, 145, 192);
+    margin:30px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    filter: contrast(300%)
+
+}
+.textBookDetailLeft p,.textBookDetailRight p{
+    font-size: 22px;
+    color:lightskyblue;
+    font-weight: 600;
+    filter:contrast(300%);
+
+}
+.textBookDetailRight input[type=text],.textBookDetailRight input[type=date],.textBookDetailLeft input[type=text],
+.textBookDetailLeft input[type=file] button,.textBookDetailLeft select,.textBookDetailRight textarea,.textBookDetailRight input[type=submit]{
+    width:100%;
+    height:auto;
+    color:grey;
+    font-size: 15px;
+    border:2px solid lightskyblue;
+
+}
+.notesModal{
+    height:auto;
+    width:60%;
+    margin-top: 1%;
+    margin-left:auto;
+    margin-right: auto;
+    background-image:url(../../assests/notes.jpeg);
+    background-size: 100%;
+    filter: grayscale(50%);
+    outline: none;
+    border:3px solid green;
+
+
+}
+.notesTitle {
+    color:green;
+    margin:30px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    filter: contrast(200%);
+    
+}
+.notesDetailLeft p,.notesDetailSpaceRight p{
+    font-size: 22px;
+    color:green;
+    font-weight: 700;
+    filter:contrast(200%);
+    letter-spacing: 1px;
+
+
+
+}
+.notesDetailLeft input[type=text],
+.notesDetailSpaceRight input[type=text],
+.notesDetailSpaceRight input[type=submit],
+.notesDetailLeft select,
+.notesDetailSpaceRight textarea[type=text]{
+    width:100%;
+    height:auto;
+    color:grey;
+    font-size: 15px;
+    border:1px solid rgb(13, 116, 13);
+
+}
+#showTheActivityInfo{
+    margin:5% 10%;
+    width:auto;
+    background-color: rgb(252, 221, 194) ;
+    border:2px solid yellowgreen;
+}
+#addedOnListHeading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#addedOnListHeading div p{
+    margin-left: 10px;
+    font-size:25px;
+     font-family: 'New Tegomin', serif;;
+    font-weight: 600;
+    color:yellowgreen;
+    letter-spacing: 1px;
+}
+#addedOnListBook table, th, td {
+    border: 2px solid rgb(228, 144, 173) ;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+#tableheading th{
+    background-color: rgb(235, 182, 201);
+}
+.bookEditModal{
+    margin:0 auto;
+    width:50%;
+    height:auto;
+    margin-top: 2%;
+    background-color: rgb(221, 158, 179);
+    border:2px solid rgb(177, 101, 177);
+
+}
+#ModalHead{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color:purple;
+    font-weight: 700;
+
+}
+#dataOfEditBook{
+    display: flex;
+}
+#editImageBook{
+    width: 50%;
+}
+.textBookEditModal,.noteEditModal{
+    height:auto;
+    width:60%;
+    margin:auto;
+    margin-top:2%;
+    background:rgb(221, 158, 179) ;
+    overflow: auto;
+    border:1px solid palevioletred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+#recommendationCardStyle{
+    margin-top:5%;
+    display:block;
+    justify-content: center;
+
+}
+#recommendationInformation{
+    border:2px solid darkblue;
+    margin-top:2%;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+#bodyOfRecommendation{
+    margin:5% 10%;
+}
+#topOfRecommendationCard{
+    display:flex;
+    margin-top:5%;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+#nameOFReviewer{
+    display: flex;
+}
+#nameOFReviewer img{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    border:1px solid rgb(118, 118, 235);
+}
+#nameOFReviewer span{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:green;
+}
+#dateToday{
+    margin-right: 10%;
+    font-size: 15px;
+    color:green;
+}
+#bodyOfRecommendation{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:cornflowerblue;
+}
+#bodyOfRecommendation span{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:lightseagreen;
+    font-weight: 500;
+}

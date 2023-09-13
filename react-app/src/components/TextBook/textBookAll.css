@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather:ital@1&display=swap');
+
+
+#textBook{
+    margin-top: 10%;
+}
+.topBackgroungTextBook{
+    height:auto;
+    display: flex;
+    justify-content:center;
+}
+.topBackgroundImage img{
+    margin:auto auto;
+    height:70%;
+    width:70%;
+}
+.topBackgroungContent{
+    margin-top:4%;
+    margin-left:15%;
+    margin-right:5%;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+
+}
+.topBackgroungContent p{
+    color:rgb(44, 43, 43);
+}
+.topBackgroungContent p span{
+    margin:0px 15px;
+    color:rgb(201, 6, 6);
+}
+.titleTextBook{
+    color:rgb(201, 6, 6);
+    font-family: 'Cinzel', serif;
+    margin-top: 4%;
+    margin-left: 43%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    font-weight: 600;
+
+
+}
+
+.bodyTextBook{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.leftColoumTextBook{
+    width:17%;
+    float: left;
+    border-right: 2px solid rgb(236, 94, 94);
+    padding-left: 0;
+}
+.rightPartTextBook{
+    width:70%;
+    float: left;
+    margin-left: 5%;
+}
+.categoriesTextBookTitle{
+    font-family: 'Cabin', sans-serif;
+
+    font-size: 20px;
+    color:rgb(201, 6, 6);
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(236, 94, 94);
+    padding:16px 20px;
+
+
+}
+.categoriesContentTextBook p{
+    font-size: 15px;
+    color:rgb(201, 6, 6);
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(236, 94, 94);
+    padding:10px 12px;
+    cursor: pointer;
+
+}
+.categoriesContentTextBook p:hover{
+    color:red;
+}
+#rightPartTextBookTop{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color:rgb(201, 6, 6);
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(236, 94, 94);
+    padding:10px 12px;
+    cursor: pointer;
+}
+
+
+

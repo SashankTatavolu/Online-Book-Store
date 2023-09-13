@@ -1,0 +1,18 @@
+.cards{
+    text-align:center;
+    background-image:linear-gradient(to bottom,lavender,thistle,plum);
+    margin:0px 20px;
+    border:1px solid violet;
+    position:relative;
+    display:flex;
+    list-style-type:none ;
+    height:auto;
+    width:auto;
+    border-radius: 15px;
+    box-shadow:4px 4px plum;
+    
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}

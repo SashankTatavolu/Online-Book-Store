@@ -1,0 +1,127 @@
+#recommendation{
+    margin-top:5%;
+
+}
+#topOfRecommendation{
+    display:flex;
+    justify-content: center ;
+}
+#topOfRecommendationContent{
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+#topOfRecommendationContent span{
+    color:cornflowerblue;
+}
+#topOfRecommendationImage img{
+    height:90%;
+    width:90%;
+}
+#SearchAndADDButton{
+    margin:5% auto;
+    display:flex;
+    justify-content: space-around;
+}
+#searchButton{
+    display: flex;
+}
+#searchButton div{
+    margin:0% 2%;
+}
+#searchButton input{
+    padding:5px;
+    border:1px solid cornflowerblue;
+    color:rgb(53, 53, 53);
+    align-content:left;
+    border-radius: 5px;
+    outline: none;
+}
+#searchButton button{
+    padding:6px 15px;
+    background-color:rgb(139, 173, 236);
+    outline: none;
+    border:1px solid cornflowerblue;
+    border-radius: 5px;
+}
+#addButton{
+    display: flex;
+}
+#addButton button{
+    padding:6px 20px;
+    background-color:rgb(139, 173, 236);
+    outline: none;
+    border:1px solid cornflowerblue;
+    border-radius: 5px;
+    align-content: left;
+    display: flex;
+    color:rgb(53, 53, 53);
+
+}
+.recommendationModal{
+    position: absolute;
+    padding:20px;
+    width:50%;
+    border:1px solid darkblue;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color:rgb(214, 232, 238);
+}
+#topOfModal{
+    display: flex;
+    justify-content: space-between;
+}
+#topOfModal p{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+    color:darkblue;
+}
+#topOfModal #CancelModalRecommendation{
+    color:darkblue;
+    cursor: pointer;
+}
+#bodyOfModal{
+    margin-top:5%;
+    margin-left: 5%;
+}
+#bodyOfModal label{
+    font-size: 18px;
+    font-family: sans-serif;
+    color:rgb(56, 56, 241);
+    letter-spacing: 1px;
+
+
+}
+textarea{
+    resize: none;
+}
+#bodyOfModal input,
+#bodyOfModal textarea{
+    border:1px solid rgb(103, 103, 231);
+    outline: none;
+    border-radius: 5px;
+    width:70%;
+}
+#bodyOfModal button{
+    width:50%;
+    border-radius:10px;
+    outline: none;
+    background-color: rgb(184, 184, 243);
+    border:none;
+    color:whitesmoke;
+    padding:12px 14px;
+    letter-spacing: 1px;
+}
+#recommendationCards{
+    display: block;
+    justify-content: center;
+    margin:5% 25%;
+}
+

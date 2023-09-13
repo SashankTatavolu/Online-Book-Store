@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.aboutUS{
+    background-image: linear-gradient(to bottom left,white 40%,thistle 30%,white,lavender);
+    width:100%;
+    height:auto;
+    margin-top:150px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    list-style-type:none ;
+    
+     
+}
+
+.title2,.title3{
+    color:rgb(182, 90, 182);
+    font-weight: bold;
+    font-size:35px;
+    letter-spacing: 0.5px;
+
+    text-align:center;
+    align-content: center;
+
+
+
+}
+
+
+
+
+
+.aboutShop{
+    margin:0;
+
+}
+
+.paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    margin:10px -10px;
+    font-size-adjust: initial;
+    font-stretch: expanded;
+    
+}
+
+#ReadMore ,#ReadLess{
+    text-align: center;
+    background-color: lavender;
+    border:1px solid thistle;
+    border-radius: 10px;
+    padding:5px 10px;
+    font-size: 15px ;
+    margin: 30px auto;
+    outline: none;
+
+
+}
+
+.services{
+    text-align:center;
+    margin:auto;
+    align-content: center;
+    
+
+    
+    
+}
+
+.servicesTypes{
+    align-content: center;
+    padding: 20px 20px;
+    display:inline-flex;
+    justify-content: center;
+    flex-flow: row;
+    max-width: 100%;
+
+}
+
+.title4{
+    color:lightseagreen;
+    font-size:25px;
+    text-align: center;
+    font-weight: bold;
+    margin:10px auto;
+}
+
+.cardsParagraph{
+    color:grey;
+    font-size:20px;
+    letter-spacing: 0.5px;
+    text-align:center;
+    margin-top:35px;
+    padding:20px 20px;
+
+
+
+}
+
+.services:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width:800px) {
+    .services {
+      width: 100%;
+      flex-flow: column;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

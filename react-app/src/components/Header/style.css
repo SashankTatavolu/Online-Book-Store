@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color:purple;
+    margin: 0 20px;
+    text-shadow: 2px 2px 4px black;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    letter-spacing: 2px;
+
+
+}
+
+* button{
+    outline: none;
+    
+}
+
+@keyframes example {
+    from{color:purple;}
+    to{color:lightblue;}
+  
+  
+}
+
+.content{
+    border-bottom: 1px solid plum;
+    background-color: lavender;
+    
+
+
+
+
+}
+
+
+
+
+
+.dropdown-content{
+    color:grey;
+    display:none;
+    position: absolute;
+    background-color:thistle;
+    border-radius: 5px 5px;
+    width:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align-content: center;
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+
+.Signup,.login{
+    text-align: center;
+    background-color: lavender;
+    border:1px solid thistle;
+    border-radius: 10px;
+    padding:5px 10px;
+    font-size: 15px ;
+    margin: 10px auto;
+    outline: none;
+}
+.Signup:hover,.login:hover{
+    background-color: plum;
+}
+
+
+
+  .dropdown-content li{
+      list-style-type: none;
+      display:flex;
+      flex-flow: column;
+  }
+
+  .insideModal{
+      width:70%;
+      height:auto;
+      background-color: thistle;
+      margin-top:1%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1%;
+      justify-content: center;
+      outline: none;
+
+  }
+
+  .wholeModal{
+      display:flex;
+      justify-content:space-between;
+  }
+
+  .leftSide{
+      width:40%;
+      background-color: thistle;
+      margin-top:23%;
+
+  }
+
+  .rightSide{
+      margin-top:6%;
+      margin-bottom:20% ;
+      margin-right:8%;
+      width:60%;
+      background-color: white;
+      border-top-left-radius:30%;
+      border-bottom-left-radius: 0%;
+      height:auto;
+      text-align: center;
+      border-color: 2px solid plum;
+      box-shadow: 5px 5px lavender;
+
+  }
+
+  .bodyModal{
+      display:inline-flex;
+      list-style-type: none;
+      margin-top:10%;
+  }
+
+  .signupLeft,.signupRight{
+      margin:auto 5%;
+  }
+
+ .signupLeft input[type=text],.signupRight input[type=text],.signupLeft input[type=password],.signupRight input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid thistle;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: left;
+    box-shadow: 2px 2px lavender;
+  }
+  
+
+
+
+  .titleModal h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-top:5%;
+    color:rgb(230, 102, 144);
+
+  }
+
+  .footModal{
+      margin-top:3%;
+      margin-bottom: 5%;
+      
+  }
+
+  .google{
+      background-image: linear-gradient(to right,lightseagreen,lightpink,lightyellow,lightblue);
+      padding:8px 14px;
+      border-color: lightseagreen;
+      border-radius:20px 20px;
+      font-size:20px;
+      box-shadow: 1px 1px lightseagreen;
+      outline: none;
+      width:50%;
+      letter-spacing: 1px;
+      overflow:hidden;
+  }
+
+
+
+
+  .footModal  input[type=submit], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid thistle;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    box-shadow: 2px 2px lavender;
+    background-color: lavender;
+    font-size: 18px;
+  }
+
+  .footModal  input[type="submit"]:hover{
+      background-color: rgb(201, 152, 201);
+  }
+
+  .footModal button:hover{
+        background-color: lightseagreen;
+  }
+
+
+  .leftSide p{
+      font-size: 25px;
+    text-align: center;
+      color:rgb(231, 83, 132);
+      font-weight: 600;
+  }
+  .leftSide button:hover{
+      background-color: palevioletred;
+  }
+
+  .leftSide button{width: 40%;
+    padding: 12px 16px;
+    margin:15% 25%;
+    display: inline-block;
+    border: 2px solid plum;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    background-color: rgb(201, 153, 201);
+    font-size: 18px;
+    overflow: hidden;
+    outline-color: thistle;
+  }
+
+  .modalLogin{
+      width:60%;
+      max-height:100%;
+      background-color:rgb(194, 160, 172);
+      margin:auto auto;
+      outline:none;
+      overflow: visible;
+      height:auto;
+  }
+
+  .wholeLoginModal{
+    display:flex;
+    text-align: center;
+    align-content: center;
+    flex-flow: column;
+    overflow:visible;
+    max-height:auto;
+  }
+
+  .loginLeftSide{
+      margin:6% auto;
+      width:50%;
+      background-color: whitesmoke;
+      border:1px solid rgb(211, 142, 165);
+      border-bottom-right-radius: 20%;
+      border-top-left-radius: 20%;
+      box-shadow:8px 8px rgb(216, 197, 203);
+      height: auto;
+
+  }
+
+
+  .loginBody li{
+      list-style-type: none;
+  }
+
+  .loginTitle{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    margin-top:5%;
+      color:palevioletred;
+  }
+
+  .loginBody input[type=text],input[type=password], select{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(194, 160, 172);
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: left;
+    box-shadow: 2px 2px rgb(194, 160, 172);
+
+  }
+
+  .loginLeftSide input[type=submit] ,select{
+    width: 40%;
+    padding: 12px 14px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(194, 160, 172);
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    background-color:rgb(196, 159, 171) ;
+    font-size:20px;
+    box-shadow:2px 2px rgb(216, 195, 202);
+  
+
+  }
+
+  .loginLeftSide input[type="submit"]:hover{
+      background-color:rgb(196, 99, 128) ;
+  }
+
+  .loginModalFoot {
+      justify-content: center;
+      margin:5% auto;
+  }
+
+  .loginModalFoot p{
+      color:peachpuff;
+      font-weight:500;
+      letter-spacing: 1px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 18px;
+  }
+
+  .loginModalFoot button{
+      background-color: rgb(218, 191, 218);
+      border:2px solid rgb(207, 165, 179);
+      border-radius: 15px 15px;
+      color:rgb(65, 63, 63);
+      font-family: Georgia;
+      font-size: 15px;
+      padding:8px 12px;
+      
+  }
+
+
+  #loginIcon:hover img{
+    transform: scale(1.2);
+  }
+
+  .loginDropdown{
+      height:auto;
+      width:100%;
+      background-color:#e4e0e0;
+      margin:10px 10px;
+      font-size: 15px;
+      font-family: Georgia;
+      letter-spacing: 1.2px;
+      font-weight: lighter;
+      color:rgb(92, 106, 119);
+      cursor: pointer;
+      border-radius: 5px;
+      border-color:3px solid rgb(109, 145, 192);
+
+
+  }
+
+  .loginDropdown  li{
+    list-style-type: none;
+    margin:0px;
+    padding: 5px 5px;
+
+
+  }
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+

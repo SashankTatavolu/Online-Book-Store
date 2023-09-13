@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+
+#notes{
+    height: auto;
+}
+.topBackgroundNotes{
+    margin-top: 8%;
+    height:auto;
+    display:flex;
+    background-color: rgb(250, 204, 212);
+    justify-content: center;
+
+
+
+}
+.topBackgroundNoteWrittenContent{
+    padding:20px 60px;
+    height:auto;
+    float: right;
+    margin-right: 10%;
+
+}
+.topBackgroundBookImage{
+    height:auto;
+}
+.topBackgroundNoteImage img{
+    margin:5% 0%;
+    float:left;
+    padding:30px 60px;
+    height: 100%;
+}
+.topBackgroundNoteWrittenContentStyles{
+    margin-top:5%;
+    margin-left: 20%;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+.topBackgroundNoteWrittenContentStyles p span{
+    color:lightseagreen;
+    margin:0% 3%;
+    letter-spacing: 1.5px;
+}
+.titleNotes{
+    color:rgb(228, 47, 107);
+    font-family: 'Cinzel', serif;
+    margin-top: 4%;
+    margin-left: 46%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    font-weight: 600;
+
+
+}
+.bodyNote{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.leftColoumNote{
+    width:17%;
+    float: left;
+    border-right: 2px solid rgb(238, 107, 128);
+    padding-left: 0;
+}
+.rightPartNote{
+    width:70%;
+    float: left;
+    margin-left: 5%;
+}
+.categoriesNoteTitle{
+    font-family: 'Cabin', sans-serif;
+
+    font-size: 20px;
+    color:rgb(228, 47, 107);
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(238, 107, 128);
+    padding:16px 20px;
+
+
+}
+.categoriesContentNote p{
+    font-size: 15px;
+    color:rgb(228, 47, 107);
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(238, 107, 128);
+    padding:10px 12px;
+    cursor: pointer;
+
+}
+.categoriesContentNote p:hover{
+    color:purple;
+}
+#rightPartNoteTop{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color:rgb(228, 47, 107);
+    margin: 0 8.5%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgb(238, 107, 128);
+    padding:10px 12px;
+    cursor: pointer;
+}
